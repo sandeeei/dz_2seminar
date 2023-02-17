@@ -7,7 +7,7 @@
 
  Console.Write("Введите трёхзначное число: ");
  int number = Convert.ToInt32(Console.ReadLine());
-
+if(number<0) number=number*-1;
 // if (number>999 || number<100)
 // {
 //     Console.Write($"Число:  {number} не является трёхзначным числом ");
